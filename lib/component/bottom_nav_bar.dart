@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:feliscat/module/problem/problem.dart';
+import 'package:feliscat/module/problem/problem_screen.dart';
 
 class BottomNavBarWidget extends StatefulWidget {
   @override 

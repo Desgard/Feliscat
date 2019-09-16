@@ -16,6 +16,7 @@ class ProblemScreenState extends State<ProblemScreen> {
         child: ListView(
           children: <Widget>[
             Card(
+              margin: EdgeInsets.all(12),
               child: Column(
                 children: <Widget>[
                   // AspectRatio(
@@ -31,7 +32,7 @@ class ProblemScreenState extends State<ProblemScreen> {
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage("http://tupian.qqw21.com/article/UploadPic/2019-8/20198816503664815.jpeg"),
                     ),
-                    title: Text("Test"),
+                    title: Text("#1 两数之和"),
                     subtitle: Text("sub Text"),
                   ),
                   Container(
