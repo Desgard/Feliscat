@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:feliscat/module/problem/problem_screen.dart';
+import 'package:feliscat/module/my/my_screen.dart';
 
 class BottomNavBarWidget extends StatefulWidget {
   @override 
@@ -31,7 +32,7 @@ class BottomNavBarWidgetState extends State<BottomNavBarWidget> {
         Icon(Icons.home),
       ))
       ..add(BottomNavBarTabItem(
-        ProblemScreen(),
+        MyScreen(),
         Text('My'),
         Icon(Icons.people),
       ))
